@@ -1,0 +1,33 @@
+.sidebar{
+    width: 280px;
+    transition: 0.5s;
+}
+.small-sidebar{
+    width: 75px;
+    transition: 1s;
+}
+
+.menu::before{
+    font-size: 1.2rem;
+    transform: scale(1.5);
+}
+.myButton{
+    background: #0d6efd;
+}
+.myButton:hover{
+    border: 1px solid rgb(151,162,175);
+}
+
+.small-sidebar .myButton{
+    margin-right: 11px;
+    transition: 1s;
+}
+.small-sidebar .doera{
+    margin-top: 3rem;
+    transition: 1s;
+}
+.small-sidebar .sidebar-text{
+    display: none; 
+    transition: 1s;
+
+}
